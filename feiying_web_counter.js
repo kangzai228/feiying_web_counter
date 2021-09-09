@@ -60,7 +60,7 @@ var feiyingCaller, feiyingTag;
             })
         }
     }
-}).fetch("https://api.5uks.net/feiying_web_counter.php?jsonpCallback=feiyingCallback", function(t) {
+}).fetch("https://api.5uks.net/feiying_web_counter/web_counter.php?jsonpCallback=feiyingCallback", function(t) {
     feiyingTag.texts(t),
     feiyingTag.shows()
 }),
