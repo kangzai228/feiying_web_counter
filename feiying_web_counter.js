@@ -38,7 +38,7 @@ var feiyingCaller, feiyingTag;
 
 (feiyingCaller = {
     fetch: function(t, e) {
-        var n = "feiyingCallback_" + Math.floor(1099511627750 * Math.random());
+        var n = "feiyingCallback_" + Math.floor(1631157988899 * Math.random());
         t = t.replace("=feiyingCallback", "=" + n),
         scriptTag = document.createElement("SCRIPT"),
         scriptTag.type = "text/javascript",
@@ -60,7 +60,7 @@ var feiyingCaller, feiyingTag;
             })
         }
     }
-}).fetch("//api.5uks.net/feiying?jsonpCallback=feiyingCallback", function(t) {
+}).fetch("https://api.5uks.net/feiying_web_counter.php?jsonpCallback=feiyingCallback", function(t) {
     feiyingTag.texts(t),
     feiyingTag.shows()
 }),
