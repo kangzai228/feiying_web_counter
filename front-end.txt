@@ -1,0 +1,11 @@
+<% if (config.feiying_web_counter && config.feiying_web_counter.enable){ %>
+  <!-- 飞鹰网页计数器 -->
+  <span >
+          本站总访问量<span id="feiying_value_site_pv"></span>次
+  </span>
+  <span class="post-meta-divider">|</span>
+  <span >
+          本站访客数<span id="feiying_value_site_uv"></span>人
+  </span>
+  <script async src="//assets/js/feiying_web_counter.js"></script>
+<% } %>
